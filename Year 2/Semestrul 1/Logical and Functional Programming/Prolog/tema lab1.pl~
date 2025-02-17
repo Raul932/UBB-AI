@@ -1,0 +1,23 @@
+% main
+unique_elements(Input, Result) :-
+    filter_unique(Input, [], Result).
+
+% base case
+filter_unique([], _, []).
+
+% recursive case
+filter_unique([H|T], Seen, Result) :-
+    (contains(H, Seen) ; contains(H, T)),
+    !,
+    filter_unique(T, [H|Seen], Result).
+
+filter_unique([H|T], Seen, [H|Result]) :-
+    \+ contains(H, Seen),
+    \+ contains(H, T),
+    filter_unique(T, [H|Seen], Result).
+
+contains(X, [X|_]) :- !.
+contains(X, [_|Tail]) :-
+    contains(X, Tail).
+contains(_, []) :- fail.
+
