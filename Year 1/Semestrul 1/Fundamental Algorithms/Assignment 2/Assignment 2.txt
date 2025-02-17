@@ -1,0 +1,8 @@
+1 function from feature 1
+1 function from feature 2
+(during this lab)
+modular programming(main.py, logic.py, test.py)
+menu interface(cum o facut marcu)
+testing with assert
+(only for next lab)
+nreg mod2+1

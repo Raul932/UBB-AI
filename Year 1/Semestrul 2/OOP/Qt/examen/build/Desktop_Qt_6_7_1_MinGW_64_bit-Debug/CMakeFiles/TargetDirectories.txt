@@ -1,0 +1,9 @@
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/examen.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/examen_autogen_timestamp_deps.dir
+C:/Users/parau/OneDrive/Desktop/Teme/OOP/Qt/examen/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/CMakeFiles/examen_autogen.dir
