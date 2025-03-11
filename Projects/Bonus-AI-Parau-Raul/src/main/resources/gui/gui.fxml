@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
+    <children>
+        <!-- File chooser section -->
+        <Button fx:id="browseButton" layoutX="20.0" layoutY="20.0" text="Browse CSV" onAction="#browseFile"/>
+        <TextField fx:id="filePathTextField" layoutX="110.0" layoutY="20.0" prefWidth="350.0" promptText="Selected file path..."/>
+        <Button fx:id="loadDataButton" layoutX="470.0" layoutY="20.0" onAction="#loadData" text="Load Data" />
+
+        <!-- Model selection and hyperparameters -->
+        <ComboBox fx:id="modelComboBox" layoutX="20.0" layoutY="60.0" prefWidth="150.0" promptText="Select Model..."/>
+        <TextField fx:id="parameterTextField" layoutX="180.0" layoutY="60.0" prefWidth="100.0" promptText="Hyperparameter..."/>
+
+        <!-- Train/Validation/Test split percentages -->
+        <Label layoutX="300.0" layoutY="60.0" text="Train (%)"/>
+        <TextField fx:id="trainPercentTextField" layoutX="360.0" layoutY="60.0" prefWidth="50.0" text="70"/>
+        <Label layoutX="420.0" layoutY="60.0" text="Validation (%)"/>
+        <TextField fx:id="validationPercentTextField" layoutX="500.0" layoutY="60.0" prefWidth="50.0" text="15"/>
+        <Label layoutX="300.0" layoutY="90.0" text="Test (%)"/>
+        <TextField fx:id="testPercentTextField" layoutX="360.0" layoutY="90.0" prefWidth="50.0" text="15"/>
+
+        <!-- Train button -->
+        <Button fx:id="trainButton" layoutX="20.0" layoutY="100.0" onAction="#trainModel" text="Train Model" />
+
+        <!-- Output area for evaluation metrics -->
+        <TextArea fx:id="outputTextArea" layoutX="20.0" layoutY="140.0" prefHeight="200.0" prefWidth="560.0" wrapText="true" />
+
+        <!-- Best model display -->
+        <Label fx:id="bestModelLabel" layoutX="20.0" layoutY="350.0" prefHeight="17.0" prefWidth="342.0" text="Best Model" />
+        <TreeView fx:id="bestModelTreeView" layoutX="20.0" layoutY="370.0" prefHeight="100.0" prefWidth="560.0" />
+
+        <!-- Confusion Matrix display -->
+        <Label layoutX="20.0" layoutY="480.0" text="Confusion Matrix"/>
+        <TableView fx:id="confusionMatrixTable" layoutX="20.0" layoutY="500.0" prefHeight="130.0" prefWidth="560.0">
+            <columns>
+                <!-- Actual vs Predicted columns to be populated dynamically -->
+                <TableColumn fx:id="classColumn" text="Class"/>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
