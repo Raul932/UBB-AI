@@ -12,7 +12,7 @@ import java.util.Optional;
 public class OrderRepositoryDB extends MemoryRepository<String, Order> {
     private final String URL;
     private final String user = "root";
-    private final String password = "101104D295prg@";
+    private final String password = "";
 
     public OrderRepositoryDB(String URL) {
         this.URL = URL;
