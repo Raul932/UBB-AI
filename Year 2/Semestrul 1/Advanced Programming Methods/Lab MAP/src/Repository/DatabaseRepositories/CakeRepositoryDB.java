@@ -11,7 +11,7 @@ import java.util.Optional;
 public class CakeRepositoryDB extends MemoryRepository<String, BirthdayCake> {
     private final String URL;
     private final String user = "root";
-    private final String password = "101104D295prg@";
+    private final String password = "";
 
     public CakeRepositoryDB(String URL) {
         this.URL = URL;
